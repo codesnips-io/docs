@@ -19,6 +19,14 @@ The API is **not **intended for things like:
 
 The main endpoint for the API is `https://api.codesnips.co/` , versioned API routes are not available and will probably never exist because it's difficult and not worth the effort to keep compatibility for old versions.  
 
+## Changes
+
+The API may be changed and updated at any time. Although we'll try our best to warn developers in advance we may have to make changes at the last minute that we cannot give forewarning about.
+
+To ensure that we can reach you when we make changes, ensure that you have marked that yourself as a developer in your account settings. When we make changes we'll send emails to all the users who have marked themselves as developers. 
+
+The API uses [Semantic Versioning](https://semver.org/) so if you want to automate detecting breaking changes then add a check into your client that checks the API Semantic major version against a stored variable containing the major version the client was created with.
+
 ## Common Status Codes
 
 There are a few status codes that are used across the entire API:
@@ -31,14 +39,6 @@ There are a few status codes that are used across the entire API:
 * 409 - Conflict, mainly used on registration when a user already exists
 
 Documentation on what they mean for the different routes is included in the documentation for those specific routes.
-
-## Changes
-
-The API may be changed and updated at any time. Although we'll try our best to warn developers in advance we may have to make changes at the last minute that we cannot give forewarning about.
-
-To ensure that we can reach you when we make changes, ensure that you have marked that yourself as a developer in your account settings. When we make changes we'll send emails to all the users who have marked themselves as developers. 
-
-The API uses [Semantic Versioning](https://semver.org/) so if you want to automate detecting breaking changes then add a check into your client that checks the API Semantic major version against a stored variable containing the major version the client was created with.
 
 {% api-method method="get" host="/" path="" %}
 {% api-method-summary %}
