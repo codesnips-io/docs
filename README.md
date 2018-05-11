@@ -24,11 +24,11 @@ One of the other ways to interact with the system is via the Node.JS based CLI. 
 npm i -g @codesnips/cli
 ```
 
-View the CLI documentation
+[View the CLI documentation](cli/installing.md)
 
 ### REST API
 
 The last method for interacting with the system is via the REST API. The API allows full access to every bit of the system. The API is oriented towards making things like third party programs for viewing and creating snippets and IDE plugins.
 
-View the API documentation
+[View the API documentation](api/overview.md)
 
