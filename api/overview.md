@@ -15,7 +15,7 @@ The API is **not **intended for things like:
 * Attempting to hack or brute force people's logins or any other parts of the system
 * Mass automation of creating, deleting, and editing snippets \(this can result in your account being banned\)
 
-## API Endpoint
+## Endpoint
 
 The main endpoint for the API is `https://api.codesnips.co/` , versioned API routes are not available and will probably never exist because it's difficult and not worth the effort to keep compatibility for old versions.  
 
@@ -32,7 +32,7 @@ There are a few status codes that are used across the entire API:
 
 Documentation on what they mean for the different routes is included in the documentation for those specific routes.
 
-## API Changes
+## Changes
 
 The API may be changed and updated at any time. Although we'll try our best to warn developers in advance we may have to make changes at the last minute that we cannot give forewarning about.
 
