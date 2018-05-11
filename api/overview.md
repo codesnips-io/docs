@@ -15,6 +15,19 @@ The API is **not **intended for things like:
 * Attempting to hack or brute force people's logins or any other parts of the system
 * Mass automation of creating, deleting, and editing snippets \(this can result in your account being banned\)
 
+## Common Status Codes
+
+There are a few status codes that are used across the entire API:
+
+* 200 - Response was ok
+* 400 - Bad request, mainly used when POST schema validation fails
+* 401 - Authorization is required or has failed
+* 403 - Authorized user does not have access to this resource
+* 404 - Not found, what's not found depends on context
+* 409 - Conflict, mainly used on registration when a user already exists
+
+Documentation on what they mean for the different routes is included in the documentation for those specific routes.
+
 ## API Changes
 
 The API may be changed and updated at any time. Although we'll try our best to warn developers in advance we may have to make changes at the last minute that we cannot give forewarning about.
