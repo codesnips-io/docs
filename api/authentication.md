@@ -9,7 +9,7 @@ Getting tokens via OAuth2 will be another authentication method offered in the f
 
 Authentication is only required for modifying and creating snippets and accounts.
 
-To create an access token either go to your user settings or to the settings for your organization, go to the access and create a new token.
+To create an access token either go to your user settings or to the settings for your organization, go to the access section and create a new token.
 
 Tokens are supplied via the Authorization header as a bearer token. 
 
